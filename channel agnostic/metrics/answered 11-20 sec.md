@@ -3,7 +3,7 @@
 ## MAQL Formula
 
 ```sql
-SELECT Segments WHERE Queue Time > 600 AND Abandoned = No
+SELECT Segments WHERE Queue Time > 10 AND Queue Time <= 20 AND Abandoned = No
 ```
 
 #### MAQL Elements
